@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="Admin" type="com.icss.entity.TAdmin"/>
+		<typeAlias alias="MovieHall" type="com.icss.entity.Tmoviehall"/>
+		<typeAlias alias="Seat" type="com.icss.entity.Tseat"/>
+		<typeAlias alias="Movie" type="com.icss.entity.Tmovie"/>
+		<typeAlias alias="Ronda" type="com.icss.entity.Tronda"/>
+		<typeAlias alias="Ticket" type="com.icss.entity.Trondaseat"/>
+		<typeAlias alias="MovieSeat" type="com.icss.dto.MovieSeat"/>
+		<typeAlias alias="Order" type="com.icss.entity.Torder"/>
+		<typeAlias alias="Type" type="com.icss.entity.Type"/>
+		<typeAlias alias="Tfilm" type="com.icss.entity.Tfilm"/>
+		<typeAlias alias="City" type="com.icss.entity.TCity"/>
+		<typeAlias alias="Area" type="com.icss.entity.TDistrict"/>
+		<typeAlias alias="Cinema" type="com.icss.entity.TCinema"/>
+		<typeAlias alias="CinemaAdmin" type="com.icss.entity.Tcinemaadmin"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/icss/dao/batis/adminMapper.XML" />
+		<mapper resource="com/icss/dao/batis/cinemaMapper.xml" />
+	</mappers>
+</configuration>

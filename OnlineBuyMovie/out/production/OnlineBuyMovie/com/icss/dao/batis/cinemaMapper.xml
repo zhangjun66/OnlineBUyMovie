@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.icss.dao.batis.ICinemaMapper">
+
+    <select id="login" resultType="CinemaAdmin">
+        select uname,role,CID from TCINEMAADMIN where uname = #{uname} and pwd = #{pwd}
+    </select>
+
+    <insert id="addHall" parameterType="MovieHall">
+        insert into tmoviehall(hno, allrow, allcol,CID) values
+        (#{hall.hno},#{hall.allrow},#{hall.allcol},#{hall.cid})
+    </insert>
+
+    <insert id="addSeat" parameterType="Seat">
+        insert into tseat(seatno, hno, rowno, colno, state)
+        VALUES(#{seat.seatno},#{seat.hno},#{seat.rowno},#{seat.colno},#{seat.state})
+    </insert>
+
+    <select id="getHall" resultType="MovieHall">
+        select * from tmoviehall where hno = #{hno}
+    </select>
+
+    <select id="getHalls" resultType="MovieHall">
+        select * from tmoviehall where CID = #{cid}
+    </select>
+
+    <select id="getMoive" resultType="Movie">
+        select * from tmovie where state = #{state}
+    </select>
+
+    <insert id="addRonda" parameterType="Ronda">
+        insert into tronda (aid,hno, mid, beginTime, language, price, endTime, playtime)
+         values (#{ronda.aid},#{ronda.hno},#{ronda.mid},#{ronda.beginTime},#{ronda.language},
+         #{ronda.price},#{ronda.endTime},#{ronda.playtime})
+    </insert>
+
+    <select id="getSeat" resultType="Seat">
+        select * from tseat where hno = #{hno} order by xho
+    </select>
+
+    <insert id="addTicket" parameterType="Ticket">
+        insert into trondaseat(aid, seatno, state)
+        values (#{ticket.aid},#{ticket.seatno},#{ticket.state})
+    </insert>
+
+
+</mapper>

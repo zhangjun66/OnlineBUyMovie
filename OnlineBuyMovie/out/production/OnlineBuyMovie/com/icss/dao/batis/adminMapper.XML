@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.icss.dao.batis.IAdminMapper">
+
+    <select id="login" resultType="Admin">
+        select uname,role from TADMIN where uname = #{uname} and pwd = #{pwd}
+    </select>
+
+    <insert id="addmoives" parameterType="Movie">
+        insert into tmovie(mid,mname,length,area,director,details,cover,bgdate,actor,state)
+        values(#{movie.mid},#{movie.mname},#{movie.length},#{movie.area},#{movie.director},
+        #{movie.details},#{movie.cover},#{movie.bgdate},#{movie.actor},#{movie.state})
+    </insert>
+
+    <insert id="addType" parameterType="Type">
+        insert into type(tyno, tyname) values(#{type.tyno},#{type.tyname})
+    </insert>
+
+    <select id="selectTypes" resultType="Type">
+       select * from type
+    </select>
+
+    <insert id="addFilm" parameterType="Tfilm">
+        insert into tfilm (mid,tyno) values(#{film.mid},#{film.tyno})
+    </insert>
+
+    <insert id="addCity" parameterType="City">
+      insert into TCITY (CNO,CITYNAME) values (#{city.cno},#{city.cityname})
+    </insert>
+
+    <select id="getCity" resultType="City">
+        select * from TCITY
+    </select>
+
+    <insert id="addArea" parameterType="Area">
+        insert into TDISTRICT (DNO, CNO, DNAME)
+        VALUES (#{area.dno},#{area.cno},#{area.dname})
+    </insert>
+
+    <select id="getArea" resultType="Area">
+        select * from TDISTRICT where CNO = #{cno}
+    </select>
+
+    <insert id="addCinema" parameterType="Cinema">
+        insert into TCINEMA (CID, DNO, CNAME, ADDRESS)
+        values (#{cinema.cid},#{cinema.dno},#{cinema.cname},#{cinema.address})
+    </insert>
+
+    <select id="getCinema" resultType="Cinema">
+        select * from TCINEMA
+    </select>
+
+    <insert id="addCinemaAdmin" parameterType="CinemaAdmin">
+        insert into TCINEMAADMIN (UNAME, CID, PWD, ROLE)
+        values (#{cinemaadmin.uname},#{cinemaadmin.cid},#{cinemaadmin.pwd},'2')
+    </insert>
+
+</mapper>

@@ -1,0 +1,683 @@
+/*reset*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	letter-spacing: 0.125em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+input:focus {
+	outline: none;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #DCDCDC inset;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+input,
+button,
+select,
+textarea {
+	outline: none
+}
+
+textarea {
+	resize: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content: ;
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+html,
+body {}
+
+body {
+	font: 12px/1.5 'Î¢ÈíÑÅºÚ', tahoma, arial, 'Hiragino Sans GB', ËÎÌå, sans-serif;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.lunbo {
+	position: relative;
+	top: 110px;
+	width: 1220px;
+	margin: 0 auto;
+	perspective: 3000px;
+	-webkit-perspective: 3000px;
+	perspective-origin: center center;
+	z-index: 9;
+}
+
+.ppt_stage {
+	position: absolute;
+	width: 1220px;
+	height: 500px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .3), inset 0 -1px 0 rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: 10px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	/*transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;*/
+}
+
+.ppt_bg_1 {
+	border-radius: 10px;
+	width: 1220px;
+}
+
+.ppt_bg_1,
+.ppt_module_1,
+.ppt_module_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1220px;
+	height: 500px;
+	/*transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;*/
+}
+
+.page {
+	position: absolute;
+	z-index: 10;
+	top: 450px;
+	left: 590px;
+}
+
+.cd-buttons>li>a {
+	cursor: pointer;
+}
+
+.yuandian {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: whitesmoke;
+	border-radius: 8px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.lunbo2 {
+	display: none;
+}
+
+.yuanbianse {
+	opacity: 0.2;
+}
+
+.ppt_bg_1 {
+	width: 1220px;
+	height: 500px;
+	background-image: -webkit-linear-gradient(45deg, #5b4fbe, #f6cd99);
+	background-image: linear-gradient(45deg, #5b4fbe, #f6cd99);
+}
+
+.ppt_text_1 {
+	position: absolute;
+	top: 230px;
+	left: 425px;
+	color: #ffffff;
+	font-size: 18px;
+	display: block;
+}
+
+.ppt_text_1>p {
+	display: block;
+	padding: 2px 5px;
+}
+
+.ppt_movie {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: auto;
+	height: 400px;
+}
+
+.ppt_module_1>h1 {
+	font-size: 28px;
+	color: #FFF;
+	position: absolute;
+	top: 150px;
+	left: 425px;
+	width: 300px;
+	display: block;
+	padding: 2px;
+}
+
+.ppt_module_1>h2 {
+	font-size: 18px;
+	color: #F5F5F5;
+	position: absolute;
+	top: 190px;
+	left: 425px;
+	width: 300px;
+	display: block;
+	padding: 2px;
+}
+
+.ppt_text_2 {
+	position: absolute;
+	top: 200px;
+	left: 900px;
+}
+
+.ppt_text_2>p {
+	color: rgb(255, 53, 53);
+	font-size: 18px;
+	font-weight: 500;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.ppt_text_2:last-child {
+	font-size: 22px;
+}
+
+.ppt_text_2>h3 {
+	padding-top: 10px;
+	color: rgb(255, 53, 53);
+	font-size: 30px;
+}
+
+.people_score {
+	font-size: 20px;
+	padding-top: 12px;
+}
+
+.icon_star {
+	position: absolute;
+	top: 37px;
+	left: 60px;
+}
+
+#icon_star_r {
+	position: absolute;
+	top: 37px;
+	left: 60px;
+	width: 0px;
+	overflow: hidden;
+}
+
+#ppt_buttons {
+	position: absolute;
+	top: 350px;
+	left: 430px;
+	z-index: 10;
+}
+
+#button_hope {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, .2);
+	width: 120px;
+	float: left;
+	display: block;
+	height: 35px;
+	margin-right: 10px;
+	padding-top: 11px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	border-radius: 2px;
+	color: #FFF;
+    text-align: center;
+}
+
+#button_hope>p {
+	font-size: 16px;
+	float: left;
+    text-align: center;
+}
+
+#button_hope>i {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+	float: left;
+	padding:0 5px 0 27px;
+}
+
+.hope_write {
+	color: #FFF;
+}
+
+.hope_red {
+	color: rgb(255, 53, 53);
+}
+
+.cd-popup-trigger {
+	overflow: hidden;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, .2);
+	width: 120px;
+	float: left;
+	display: block;
+	height: 35px;
+	padding-top: 11px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	border-radius: 2px;
+	color: #FFF;
+}
+.comment_end{
+	overflow: hidden;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, .2);
+	width: 120px;
+	float: left;
+	display: block;
+	height: 25px;
+	padding-top: 11px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	border-radius: 2px;
+	color: #FFF;
+}
+#button_score {
+	cursor: pointer;
+	display: block;
+}
+
+#button_score>p {
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+}
+
+#button_score>span {
+	display: block;
+}
+
+.star {
+	width: 0;
+	height: 0;
+	color: #FDFDFD;
+	position: absolute;
+	margin: 4px 0 0 23px;
+	display: block;
+	border-right: 9px solid transparent;
+	border-bottom: 7px solid #FDFDFD;
+	border-left: 11px solid transparent;
+	-moz-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-o-transform: rotate(35deg);
+}
+
+.star:before {
+	height: 0;
+	width: 0;
+	position: absolute;
+	display: block;
+	top: -4px;
+	left: -8px;
+	border-bottom: 7px solid #FDFDFD;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	content: '';
+	-webkit-transform: rotate(-35deg);
+	-moz-transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg);
+	-o-transform: rotate(-35deg);
+}
+
+.star:after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	display: block;
+	top: 1px;
+	left: -12px;
+	color: #FDFDFD;
+	border-right: 11px solid transparent;
+	border-bottom: 7px solid #FDFDFD;
+	border-left: 9px solid transparent;
+	-webkit-transform: rotate(-70deg);
+	-moz-transform: rotate(-70deg);
+	-ms-transform: rotate(-70deg);
+	-o-transform: rotate(-70deg);
+}
+
+.button_buy {
+	cursor: pointer;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	background-color: #df2d2d;
+	clear: both;
+	display: block;
+	color: #fff;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.ppt_text_3 {
+	position: absolute;
+	top: 330px;
+	left: 900px;
+	color: #ff3535;
+}
+
+.ppt_text_3>h1 {
+	font-size: 16px;
+}
+
+.ppt_text_3>h2 {
+	font-size: 24px;
+}
+
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+
+/*html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}*/
+
+body {
+	font-size: 100%;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	color: #35a785;
+	text-decoration: none;
+}
+
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+
+.img-replace {
+	/* replace text with an image */
+	display: inline-block;
+	overflow: hidden;
+	text-indent: 100%;
+	color: transparent;
+	white-space: nowrap;
+}
+
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+
+/*.cd-popup-trigger {
+  display: block;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  margin: 3em auto;
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50em;
+  background: #35a785;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
+}
+@media only screen and (min-width: 1170px) {
+  .cd-popup-trigger {
+    margin: 6em auto;
+  }
+}*/
+
+
+/* -------------------------------- 
+
+xpopup 
+
+-------------------------------- */
+
+.cd-popup {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(94, 110, 141, 0.9);
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	transition: opacity 0.3s 0s, visibility 0s 0.3s;
+	z-index: 999;
+}
+
+.cd-popup.is-visible {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+	-moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+	transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.cd-popup-container {
+	position: relative;
+	width: 90%;
+	max-width: 600px;
+	margin: 4em auto;
+	background: #FFF;
+	border-radius: .25em .25em .4em .4em;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	-webkit-transform: translateY(-40px);
+	-moz-transform: translateY(-40px);
+	-ms-transform: translateY(-40px);
+	-o-transform: translateY(-40px);
+	transform: translateY(-40px);
+	/* Force Hardware Acceleration in WebKit */
+	-webkit-backface-visibility: hidden;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.cd-popup-container p {
+	padding: 2em 1em 0.5em 1em;
+	font-size: 1.5em;
+}
+
+.cd-popup-container .cd-buttons:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.cd-popup-container .cd-buttons li {
+	float: left;
+	width: 50%;
+}
+
+.cd-popup-container .cd-buttons a {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-transform: uppercase;
+	color: #FFF;
+	-webkit-transition: background-color 0.2s;
+	-moz-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.cd-popup-container .cd-buttons li:first-child a {
+	background: #fc7169;
+	border-radius: 0 0 0 .25em;
+}
+
+.no-touch .cd-popup-container .cd-buttons li:first-child a:hover {
+	background-color: #fc8982;
+}
+
+.cd-popup-container .cd-buttons li:last-child a {
+	background: #b6bece;
+	border-radius: 0 0 .25em 0;
+}
+
+.no-touch .cd-popup-container .cd-buttons li:last-child a:hover {
+	background-color: #c5ccd8;
+}
+
+.cd-popup-container .cd-popup-close {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+}
+
+.cd-popup-container .cd-popup-close::before,
+.cd-popup-container .cd-popup-close::after {
+	content: '';
+	position: absolute;
+	top: 12px;
+	width: 14px;
+	height: 3px;
+	background-color: #8f9cb5;
+}
+
+.cd-popup-container .cd-popup-close::before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	left: 8px;
+}
+
+.cd-popup-container .cd-popup-close::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	right: 8px;
+}
+
+.is-visible .cd-popup-container {
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+}
+
+@media only screen and (min-width: 1170px) {
+	.cd-popup-container {
+		margin: 8em auto;
+	}
+}
+
+textarea {
+	color: #3D3B3B;
+	margin: 40px 20px;
+	width: 80%;
+	font-size: 16px;
+}

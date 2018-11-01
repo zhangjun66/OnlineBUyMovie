@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OnlineBuyMovie:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bd56429-2512-42a2-96a7-defc9c5a1bf3" name="Default Changelist" comment="idea second">
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/artifacts/Cinema_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/Cinema.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/src/com/icss/action/StaffAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/src/com/icss/action/back/AdminAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/WEB-INF/views/back/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/css/staffloginbody.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/css/staffloginstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/img/8bcLQqF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cinema/web/img/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be615481-be35-488b-b5a7-287b0e2760b1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be615481-be35-488b-b5a7-287b0e2760b1/storage_v2/_src_/schema/MOVIE.EEdiBA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/be615481-be35-488b-b5a7-287b0e2760b1/storage_v2/_src_/schema/MOVIE.EEdiBA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/action/CinemaAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/action/back/AdminAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/biz/AdminBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/biz/CinemaBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/CinemaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/batis/IAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/batis/ICinemaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/batis/adminMapper.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dao/batis/cinemaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/dto/MovieSeat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TDistrict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TGrally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TMoviehs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/TUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Tcinemaadmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Tfilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Tmovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Tmoviehall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Torder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/ToutTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Tronda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Trondaseat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Tseat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/entity/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/intercept/TimeBasedAccessInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/util/CreatCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/icss/util/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ant-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ant-launcher-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/cglib-3.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-lang-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ezmorph-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.6.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javassist-3.22.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jersey-client-1.18.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jersey-core-1.18.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/json-lib-2.3-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ognl-3.1.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/ojdbc8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.19.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/addarea.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/addcinema.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/addcinemaadmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/addcity.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/addtype.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/movie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/back/movieAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/addhall.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/addronda.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/addseat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/hall.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/lookhall.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/mmsum.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/msum.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/ronda.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/views/main/updatehall.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/css/supersized.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/img/backgrounds/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/img/backgrounds/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/img/backgrounds/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/img/progress.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/supersized-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/supersized.3.2.7.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min14ed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/deatails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/demo/webuploader-demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.min93e3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery-ui-1.8.17.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery-ui-timepicker-addon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/login.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/patterns/header-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/patterns/shattered.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/css/blueimp-gallery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/play-pause.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/video-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/chosen/chosen-sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/chosen/chosen-sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/footable/fonts/footable.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/footable/fonts/footable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/footable/fonts/footable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/footable/fonts/footable.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/footable/fonts/footabled41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/footable/footable.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/iCheck/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/iCheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/images/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/jqgrid/ui.jqgridffe4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/jsTree/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/markdown/bootstrap-markdown.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/plyr/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/plyr/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/simditor/simditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/summernote/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/toastr/toastr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/plugins/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/ppt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/selectCinema.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/selectseat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.min862f.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/demo_fontclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/demo_symbol.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/demo_unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont93e3.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont93e3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont93e3.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont93e3.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont93e3.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/actor1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/actor2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/actor3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/actor4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/actor5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icon_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icon_star_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/iconfont-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/index_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/loading-upload.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/locked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/movie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/movie_imgs_list_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/movie_imgs_list_li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/movie_imgs_list_li1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/movie_imgs_list_li2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/p_big1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/p_big2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/p_big3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/profile_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/profile_small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/qr_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/seat_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/seat_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/seat_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/seat_die.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/seat_select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/sp-seats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/wenku_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/contabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/bootstrap-table-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/echarts-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/flot-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/form-advanced-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/form-validate-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/layer-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/morris-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/peity-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/rickshaw-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/sparkline-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/treeview-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/demo/webuploader-demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/hplus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui-1.8.17.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui-timepicker-addon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui-timepicker-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/beautifyhtml/beautifyhtml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/chartJs/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/clockpicker/clockpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/codemirror/mode/javascript/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/dataTables/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/dataTables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/diff_match_patch/diff_match_patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/echarts/echarts-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/fancybox_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/fancybox_loading@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/fancybox_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/fancybox_sprite@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/curvedLines.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/footable/footable.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jeditable/jquery.jeditable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jqgrid/i18n/grid.locale-cnffe4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jqgrid/jquery.jqGrid.minffe4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jsKnob/jquery.knob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jsTree/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/layDate官网.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate-v1.1/更新日志.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/layim/layim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/layim/layim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/layim/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/markdown/bootstrap-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/markdown/bootstrap-markdown.zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/markdown/markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/markdown/to-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/nouslider/jquery.nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/plyr/plyr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/prettyfile/bootstrap-prettyfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/rickshaw/rickshaw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/rickshaw/vendor/d3.v3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/simditor/hotkeys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/simditor/module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/simditor/simditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/simditor/uploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/staps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/suggest/bootstrap-suggest.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/summernote/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/summernote/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/toastr/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/treeview/bootstrap-treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/validate/messages_zh.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/webuploader/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/plugins/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/welcome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/admin_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/login_button.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/login_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/login_name_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/images/复件 login_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/ui/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/ui/do.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineBuyMovie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineBuyMovie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Movie" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Movie" type="feb32156:DbDataSourceImpl" />
+        <item name="MOVIE: schema" type="ac44c5e0:OracleImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Movie" type="feb32156:DbDataSourceImpl" />
+        <item name="MOVIE: schema" type="ac44c5e0:OracleImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1700888424">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="XML" value="286" />
+          <entry key="dummy" value="15" />
+          <entry key="html" value="8" />
+          <entry key="java" value="1661" />
+          <entry key="jsp" value="802" />
+          <entry key="txt" value="19" />
+          <entry key="xml" value="118" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="JAVA" value="1661" />
+          <entry key="JSP" value="802" />
+          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="SQL" value="6" />
+          <entry key="XML" value="398" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="TADMIN" value="1" />
+          <entry key="TCINEMA" value="2" />
+          <entry key="TCINEMAADMIN" value="2" />
+          <entry key="TCITY" value="2" />
+          <entry key="TDISTRICT" value="3" />
+          <entry key="TMOVIE" value="1" />
+          <entry key="TMOVIEHALL" value="2" />
+          <entry key="TSEAT" value="1" />
+          <entry key="TYPE" value="1" />
+          <entry key="XML" value="10" />
+          <entry key="class" value="2" />
+          <entry key="css" value="2" />
+          <entry key="groovy" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="123" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="61" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="CSS" value="2" />
+          <entry key="Database Element" value="15" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="123" />
+          <entry key="JSP" value="61" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Properties" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="42" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/icss/action/CinemaAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="144" column="70" selection-start-line="144" selection-start-column="70" selection-end-line="144" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/icss/dao/batis/ICinemaMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/plugins/fullcalendar/fullcalendar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="122" column="47" lean-forward="true" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adminBiz</find>
+      <find>back</find>
+      <find>back/addhall.do</find>
+      <find>addhall.do</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>cinemaBiz</replace>
+      <replace>main</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TCinemaAdmin.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TComment.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TDistrict.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Tfilm.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TGrally.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TMovie.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TMovieHall.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TMoviehs.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/ToutTicket.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TRonda.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TRondaSeat.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TSeat.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TUser.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Type.java" />
+        <option value="$PROJECT_DIR$/src/beans.xml" />
+        <option value="$PROJECT_DIR$/src/com/icss/dto/MovieSeat.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Tmoviehall.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Trondaseat.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Tmovie.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Tronda.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/Tseat.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/action/CAdminAction.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/action/AdminAction.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/biz/CinemaAction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/index.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/main.jsp" />
+        <option value="$PROJECT_DIR$/src/com/icss/filter/CharacterEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/addtype.jsp" />
+        <option value="$PROJECT_DIR$/src/mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/com/icss/entity/TCity.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/addcity.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/addarea.jsp" />
+        <option value="$PROJECT_DIR$/src/com/icss/dao/batis/adminMapper.XML" />
+        <option value="$PROJECT_DIR$/src/com/icss/dao/batis/IAdminMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/biz/AdminBiz.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/action/back/AdminAction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/addcinema.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/back/addcinemaadmin.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/main/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/main/addronda.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/main/addhall.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/main/login.jsp" />
+        <option value="$PROJECT_DIR$/src/com/icss/action/CinemaAction.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/biz/CinemaBiz.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/dao/CinemaDao.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/dao/batis/ICinemaMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/icss/dao/batis/cinemaMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1412" />
+    <option name="width" value="1364" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icss" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icss" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icss" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icss" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="batis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icss" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnlineBuyMovie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnlineBuyMovie" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="be615481-be35-488b-b5a7-287b0e2760b1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541044134846" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.icss.filter" />
+      <recent name="com.icss.dto" />
+      <recent name="com.icss.entity" />
+      <recent name="com.icss.biz" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web\js" />
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web\css" />
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web" />
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web\WEB-INF\lib" />
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web\WEB-INF\views\back" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.icss.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web\WEB-INF\views\back" />
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web" />
+      <recent name="G:\OnlineBuyMovie\OnlineBuyMovie\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.0.53" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://10.0.8.15:8080/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="OnlineBuyMovie:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_53_OnlineBuyMovie" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <output_file path="$PROJECT_DIR$/logs/log.txt" is_save="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="15640" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OnlineBuyMovie:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bd56429-2512-42a2-96a7-defc9c5a1bf3" name="Default Changelist" comment="" />
+      <created>1539917730742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539917730742</updated>
+      <workItem from="1539917735564" duration="11802000" />
+      <workItem from="1540001720804" duration="3985000" />
+      <workItem from="1540864110760" duration="27086000" />
+      <workItem from="1541031744966" duration="6229000" />
+    </task>
+    <task id="LOCAL-00001" summary="idea first">
+      <created>1539917893726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539917893726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49102000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1412" y="0" width="1364" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498062" visible="true" weight="0.22894333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" sideWeight="0.501938" side_tool="true" weight="0.24961832" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32987013" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4984733" weight="0.28311688" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.2935065" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="TODO" order="7" sideWeight="0.4984733" visible="true" weight="0.32987013" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015267" side_tool="true" weight="0.32987013" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32987013" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32987013" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32597402" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32977098" />
+      <window_info anchor="right" id="Database" order="6" weight="0.15926494" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea first" />
+    <MESSAGE value="idea second" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea second" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="88" column="54" lean-forward="true" selection-start-line="88" selection-start-column="54" selection-end-line="88" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TMOVIE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/addtype.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/entity/TAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/addcity.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TCITY">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/entity/TCity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/dao/batis/IAdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TSEAT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/biz/AdminBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.19.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/entity/TDistrict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TDISTRICT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/addcinema.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/entity/TCinema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/addarea.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/addcinemaadmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TADMIN">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/dao/batis/adminMapper.XML">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/action/back/AdminAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="346" selection-start-line="346" selection-end-line="346" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/jquery-ui-1.8.17.custom.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery-1.7.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/movieAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/deletehall.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/addseat.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/back/movie.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/addhall.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/addronda.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="53" column="80" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="74" lean-forward="true" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/entity/Tmoviehall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TCINEMAADMIN">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/main/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/entity/Tcinemaadmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/action/CinemaAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="144" column="70" selection-start-line="144" selection-start-column="70" selection-end-line="144" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/biz/CinemaBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="98" column="47" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/dao/CinemaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TMOVIEHALL">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TCINEMA">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://be615481-be35-488b-b5a7-287b0e2760b1/schema/MOVIE/table/TYPE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/dao/batis/cinemaMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/plugins/jeditable/jquery.jeditable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="291" column="27" selection-start-line="291" selection-start-column="27" selection-end-line="291" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/plugins/jsTree/jstree.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="126" selection-start-line="12" selection-start-column="126" selection-end-line="12" selection-end-column="126" />
+          <folding>
+            <element signature="n#style#0;n#ins#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/icss/dao/batis/ICinemaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/plugins/fullcalendar/fullcalendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="122" column="47" lean-forward="true" selection-start-line="122" selection-start-column="47" selection-end-line="122" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>OnlineBuyMovie:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|OnlineBuyMovie</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,221 @@
+.main_box {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.seat_tit {
+	font-size: 28px;
+	color: #3D3B3B;
+	padding: 10px 0 30px 10px;
+}
+
+.seat_list {
+	margin:0 auto;
+	width: 780px;
+	border: 1px solid rgba(0, 0, 0, .3);
+	overflow: hidden;
+}
+
+.screen {
+	width: 100%;
+	padding-top: 40px;
+	background: url(../img/sp-seats.png) no-repeat center -52px;
+}
+
+.screens_name>span {
+	color: #FDFDFD;
+	font-size: 24px;
+	padding: 0 131px;
+	position: absolute;
+	top: 52px;
+}
+
+.screen_center {
+	width: 165px;
+	padding: 10px 20px;
+	background-color: #c1bfbf;
+	color: #fff;
+	font-size: 18px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.seat_box {
+	padding: 25px 15px;
+	overflow: hidden;
+}
+
+#y_shaft {
+	margin-top: -2px;
+	width: 25px;
+	border-radius: 10px;
+	background-color: #a8a5a5;
+	overflow: hidden;
+	float: left;
+	display: inline-block;
+}
+
+#y_shaft>li {
+	color: #FDFDFD;
+	font-size: 18px;
+	padding: 1px 6px;
+	float: left;
+}
+
+#seats {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#seats>span {
+	color: #FF3535;
+	font-size: 30px;
+	text-align: center;
+}
+
+.seat {
+	width: 20px;
+	height: 17px;
+	margin: 5px 3px;
+	display: inline-block;
+	vertical-align: middle;
+	outline: 0;
+	background: url(../img/sp-seats.png) no-repeat;
+}
+
+.SeatOfDie {
+	background-position: -102px 0!important;
+}
+
+.can_select {
+	cursor: pointer;
+	background-position: -27px 0 !important;
+}
+
+.cant_select {
+	background-position: -52px 0!important;
+}
+
+.can_select:hover {
+	background-position: -52px 0!important;
+}
+
+.cant_select:hover {
+	background-position: -127px 0!important;
+}
+.selected {
+	background-position: -77px 0!important;
+}
+
+.selected:hover {
+	background-position: -77px 0!important;
+}
+
+.seat-tip {
+	padding: 20px 0;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.seat-tip>span {
+	margin: 0 5px;
+}
+
+.order {
+	min-height: 750px;
+	width: 400px;
+	background-color: #fed8bd;
+	overflow: hidden;
+	float: right;
+}
+
+#payment {
+	background-color: #FF3535;
+	color: #FDFDFD;
+	border: 0px;
+	font-size: 18px;
+	padding: 10px 40px;
+	margin: 60px 0 20px 98px;
+	cursor: pointer;
+}
+
+.order_tit>img {
+	width: 130px;
+	float: left;
+}
+
+.order_tit {
+	padding-left: 30px;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+.order_tit>h1 {
+	font-size: 20px;
+	color: #676565;
+	text-indent: 1.5em;
+}
+
+.order_tit>p {
+	color: #676565;
+	font-size: 16px;
+	text-indent: 2em;
+}
+
+.order_context {
+	margin: 0 26px;
+	padding: 30px 4px 15px;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.order_context>p>span {
+	color: #676565;
+	font-size: 16px;
+}
+
+.order_context>p {
+	color: #777676;
+	font-size: 16px;
+}
+
+.order_price {
+	margin: 0 26px;
+	padding: 30px 4px 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+	overflow: hidden;
+}
+
+.order_price>p>span {
+	color: #676565;
+	font-size: 16px;
+}
+
+.order_price>p {
+	color: #777676;
+	font-size: 16px;
+}
+
+.order_determine {
+	margin: 0 26px;
+	padding: 30px 4px 15px;
+	overflow: hidden;
+}
+.order_determine>h1{
+	color: #515050;
+	font-size:18px ;
+}
+.order_determine>span{
+	margin: 10px 0;
+	padding: 5px 0;
+	color: #515050;
+	background-color: #F5F5F5;
+	font-size: 22px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}

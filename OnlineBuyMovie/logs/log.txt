@@ -1,0 +1,128 @@
+Using CATALINA_BASE:   "C:\Users\Administrator\.IntelliJIdea2018.2\system\tomcat\Tomcat_8_0_53_OnlineBuyMovie"
+Using CATALINA_HOME:   "G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53"
+Using CATALINA_TMPDIR: "G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\temp"
+Using JRE_HOME:        "C:\Program Files (x86)\Java\jdk1.8.0_131"
+Using CLASSPATH:       "G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\bin\bootstrap.jar;G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\bin\tomcat-juli.jar"
+01-Nov-2018 09:15:12.166 警告 [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'maxSpareThreads' to '75' did not find a matching property.
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.53
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 29 2018 14:42:45 UTC
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.53.0
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.8.0_131\jre
+01-Nov-2018 09:15:12.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_131-b11
+01-Nov-2018 09:15:12.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Nov-2018 09:15:12.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Administrator\.IntelliJIdea2018.2\system\tomcat\Tomcat_8_0_53_OnlineBuyMovie
+01-Nov-2018 09:15:12.225 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53
+01-Nov-2018 09:15:12.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Administrator\.IntelliJIdea2018.2\system\tomcat\Tomcat_8_0_53_OnlineBuyMovie\conf\logging.properties
+01-Nov-2018 09:15:12.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Nov-2018 09:15:12.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:15640,suspend=y,server=n
+01-Nov-2018 09:15:12.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\Administrator\.IntelliJIdea2018.2\system\captureAgent\debugger-agent.jar=file:/C:/Users/Administrator/AppData/Local/Temp/capture2.props
+01-Nov-2018 09:15:12.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+01-Nov-2018 09:15:12.226 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Nov-2018 09:15:12.227 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Nov-2018 09:15:12.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Administrator\.IntelliJIdea2018.2\system\tomcat\Tomcat_8_0_53_OnlineBuyMovie
+01-Nov-2018 09:15:12.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53
+01-Nov-2018 09:15:12.228 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\temp
+01-Nov-2018 09:15:12.228 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.17 using APR version 1.6.3.
+01-Nov-2018 09:15:12.228 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+01-Nov-2018 09:15:13.295 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2o  27 Mar 2018)
+01-Nov-2018 09:15:13.467 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8080"]
+01-Nov-2018 09:15:13.480 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+01-Nov-2018 09:15:13.485 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1636 ms
+01-Nov-2018 09:15:13.536 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+01-Nov-2018 09:15:13.537 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.53
+01-Nov-2018 09:15:13.559 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8080"]
+01-Nov-2018 09:15:13.632 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+01-Nov-2018 09:15:13.671 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 185 ms
+Connected to server
+01-Nov-2018 09:15:19.074 信息 [RMI TCP Connection(2)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO - FrameworkServlet 'dispatcher': initialization started
+INFO - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Nov 01 09:15:19 CST 2018]; root of context hierarchy
+INFO - Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-mvc.xml]
+INFO - Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO - Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO - Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO - Initializing ExecutorService  'myScheduler'
+INFO - Bean 'myScheduler' of type [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO - Mapped "{[/back/addtype.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addType(com.icss.entity.Type,org.springframework.ui.Model)
+INFO - Mapped "{[/back/addtype.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addType()
+INFO - Mapped "{[/back/login.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.login()
+INFO - Mapped "{[/back/login.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.login(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/back/addMovie.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addmovies(java.util.Date,java.lang.String[],org.springframework.ui.Model,com.icss.entity.Tmovie)
+INFO - Mapped "{[/back/addMovie.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addmovies(org.springframework.ui.Model)
+INFO - Mapped "{[/back/upPic.do]}" onto public java.lang.String com.icss.action.back.AdminAction.uploadPic(org.springframework.web.multipart.MultipartFile)
+INFO - Mapped "{[/back/addcinema.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinema(org.springframework.ui.Model)
+INFO - Mapped "{[/back/addcinema.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinema(org.springframework.ui.Model,com.icss.entity.TCinema)
+INFO - Mapped "{[/back/addcinemaadmin.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinemaAdmin(org.springframework.ui.Model)
+INFO - Mapped "{[/back/addcinemaadmin.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinemaAdmin(org.springframework.ui.Model,com.icss.entity.Tcinemaadmin)
+INFO - Mapped "{[/back/addcity.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addcity()
+INFO - Mapped "{[/back/addcity.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addcity(com.icss.entity.TCity,org.springframework.ui.Model)
+INFO - Mapped "{[/back/addarea.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addarea(org.springframework.ui.Model,com.icss.entity.TDistrict)
+INFO - Mapped "{[/back/addarea.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addarea(org.springframework.ui.Model)
+INFO - Mapped "{[/back/getarea.do]}" onto public java.lang.String com.icss.action.back.AdminAction.getarea(java.lang.String)
+INFO - Mapped "{[/cinema/login.do],methods=[POST]}" onto public java.lang.String com.icss.action.CinemaAction.login(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/cinema/login.do],methods=[GET]}" onto public java.lang.String com.icss.action.CinemaAction.login()
+INFO - Mapped "{[/cinema/addhall.do],methods=[POST]}" onto public java.lang.String com.icss.action.CinemaAction.addhall(com.icss.entity.Tmoviehall,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/cinema/addhall.do],methods=[GET]}" onto public java.lang.String com.icss.action.CinemaAction.addhall()
+INFO - Mapped "{[/cinema/addronda.do],methods=[GET]}" onto public java.lang.String com.icss.action.CinemaAction.addronda(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/cinema/addronda.do],methods=[POST]}" onto public java.lang.String com.icss.action.CinemaAction.addronda(java.util.Date,java.util.Date,java.util.Date,com.icss.entity.Tronda,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+01-Nov-2018 09:15:23.569 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\webapps\manager
+01-Nov-2018 09:15:23.875 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+01-Nov-2018 09:15:23.901 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\webapps\manager has finished in 331 ms
+INFO - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Nov 01 09:15:19 CST 2018]; root of context hierarchy
+INFO - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Nov 01 09:15:19 CST 2018]; root of context hierarchy
+INFO - Mapped "{[/back/addtype.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addType(com.icss.entity.Type,org.springframework.ui.Model)
+INFO - Mapped "{[/back/addtype.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addType()
+INFO - Mapped "{[/back/login.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.login()
+INFO - Mapped "{[/back/login.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.login(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/back/addMovie.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addmovies(java.util.Date,java.lang.String[],org.springframework.ui.Model,com.icss.entity.Tmovie)
+INFO - Mapped "{[/back/addMovie.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addmovies(org.springframework.ui.Model)
+INFO - Mapped "{[/back/upPic.do]}" onto public java.lang.String com.icss.action.back.AdminAction.uploadPic(org.springframework.web.multipart.MultipartFile)
+INFO - Mapped "{[/back/addcinema.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinema(org.springframework.ui.Model)
+INFO - Mapped "{[/back/addcinema.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinema(org.springframework.ui.Model,com.icss.entity.TCinema)
+INFO - Mapped "{[/back/addcinemaadmin.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinemaAdmin(org.springframework.ui.Model)
+INFO - Mapped "{[/back/addcinemaadmin.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addcinemaAdmin(org.springframework.ui.Model,com.icss.entity.Tcinemaadmin)
+INFO - Mapped "{[/back/addcity.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addcity()
+INFO - Mapped "{[/back/addcity.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addcity(com.icss.entity.TCity,org.springframework.ui.Model)
+INFO - Mapped "{[/back/addarea.do],methods=[POST]}" onto public java.lang.String com.icss.action.back.AdminAction.addarea(org.springframework.ui.Model,com.icss.entity.TDistrict)
+INFO - Mapped "{[/back/addarea.do],methods=[GET]}" onto public java.lang.String com.icss.action.back.AdminAction.addarea(org.springframework.ui.Model)
+INFO - Mapped "{[/back/getarea.do]}" onto public java.lang.String com.icss.action.back.AdminAction.getarea(java.lang.String)
+INFO - Mapped "{[/cinema/login.do],methods=[POST]}" onto public java.lang.String com.icss.action.CinemaAction.login(java.lang.String,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/cinema/login.do],methods=[GET]}" onto public java.lang.String com.icss.action.CinemaAction.login()
+INFO - Mapped "{[/cinema/addhall.do],methods=[POST]}" onto public java.lang.String com.icss.action.CinemaAction.addhall(com.icss.entity.Tmoviehall,java.lang.String,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/cinema/addhall.do],methods=[GET]}" onto public java.lang.String com.icss.action.CinemaAction.addhall()
+INFO - Mapped "{[/cinema/addronda.do],methods=[GET]}" onto public java.lang.String com.icss.action.CinemaAction.addronda(org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - Mapped "{[/cinema/addronda.do],methods=[POST]}" onto public java.lang.String com.icss.action.CinemaAction.addronda(java.util.Date,java.util.Date,java.util.Date,com.icss.entity.Tronda,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+INFO - FrameworkServlet 'dispatcher': initialization completed in 5375 ms
+INFO - {dataSource-1} inited
+Using CATALINA_BASE:   "C:\Users\Administrator\.IntelliJIdea2018.2\system\tomcat\Tomcat_8_0_53_OnlineBuyMovie"
+Using CATALINA_HOME:   "G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53"
+Using CATALINA_TMPDIR: "G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\temp"
+Using JRE_HOME:        "C:\Program Files (x86)\Java\jdk1.8.0_131"
+Using CLASSPATH:       "G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\bin\bootstrap.jar;G:\IntelliJ IDEA 2018.2.4\apache-tomcat-8.0.53-windows-x64\apache-tomcat-8.0.53\bin\tomcat-juli.jar"
+01-Nov-2018 11:30:37.569 信息 [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Nov-2018 11:30:37.570 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-apr-8080"]
+01-Nov-2018 11:30:37.630 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-apr-8009"]
+01-Nov-2018 11:30:37.680 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+INFO - Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Nov 01 09:15:19 CST 2018]; root of context hierarchy
+INFO - {dataSource-1} closed
+INFO - Shutting down ExecutorService 'myScheduler'
+01-Nov-2018 11:30:37.729 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.alibaba.druid.proxy.DruidDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Nov-2018 11:30:37.730 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+01-Nov-2018 11:30:37.730 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.Object.wait(Object.java:502)
+ java.util.TimerThread.mainLoop(Timer.java:526)
+ java.util.TimerThread.run(Timer.java:505)
+01-Nov-2018 11:30:37.746 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-apr-8080"]
+01-Nov-2018 11:30:37.799 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-apr-8009"]
+01-Nov-2018 11:30:37.851 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-apr-8080"]
+01-Nov-2018 11:30:37.851 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-apr-8009"]
