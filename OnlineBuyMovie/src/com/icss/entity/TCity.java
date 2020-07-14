@@ -15,7 +15,7 @@ public class TCity {
     this.cno = cno;
   }
 
-  public String getCityname() {
+  public String getCityname() {//城市名称
     return cityname;
   }
 
