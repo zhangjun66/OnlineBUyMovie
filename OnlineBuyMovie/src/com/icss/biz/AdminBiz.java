@@ -103,7 +103,7 @@ public class AdminBiz {
      * @return
      */
     public List<TDistrict> getArea(String cno)throws Exception{
-        return adminDao.getArea(cno);
+        return adminDao.getArea(cno);//测试
     }
 
     /**
